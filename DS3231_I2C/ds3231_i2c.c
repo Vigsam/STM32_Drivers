@@ -2,7 +2,7 @@
 
 DS3231 RTC Library for STM32 HAL Layer Library
 
-Author: Vigneshwaran.S, Janakiraman
+Author: Vigneshwaran, Janakiraman
 
 Designation: Embedded IoT Developer 
 
