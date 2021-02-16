@@ -83,7 +83,7 @@ float Read_RelativeHumidity_from_SI7006()
 		return -1;
 	}
 
-	Value = (rx_buffer[0] << 8) | rx_buffer[0];
+	Value = (rx_buffer[0] << 8) | rx_buffer[1];
 
 	humidity = ((125 * Value)/65536)-6;
 
