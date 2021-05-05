@@ -18,8 +18,13 @@ I2C_HandleTypeDef hi2c1;
 #define 	SI7021_FIRMWARE_REV_ADDR			0x84B8
 #define 	SI7021_TEMP_ADDR					0xE3
 #define 	SI7021_HUM_ADDR						0xE5
+#define 	SI7021_USER_WRITE_REG_ADDR			0xE6
+#define 	SI7021_USER_READ_REG_ADDR			0xE7
+
 
 uint8_t SI7021_Init();
+
+uint8_t SI7021_SetResolution();
 
 float Read_Temperature_From_SI7021();
 
