@@ -13,7 +13,7 @@
 I2C_HandleTypeDef hi2c1;
 
 #define	 BH1745_SLAVE_ADDR				(0x38<<1)		// Slave Address
-#define  BH1745_CTRL_REG_ADDR			0x40			// Control Register Address
+#define  BH1745_CTRL_REG_ADDR			  0x40			// Control Register Address
 #define	 BH1745_MODE_CTRL1				0x41			// Mode control register 1 address
 #define	 BH1745_MODE_CTRL2				0x42			// Mode control register 2 address
 #define  BH1745_MODE_CTRL3				0x44			// Mode control register 3 address
